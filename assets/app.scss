@@ -1,0 +1,33 @@
+.text-no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.no-word-break {
+  word-break: keep-all;
+}
+
+.custom-card-shadow {
+  box-shadow: 0px 0px 15px rgba(200, 200, 200, 0.4) !important;
+}
+
+::-moz-selection {
+  color: #000000;
+  background: #a8dadc;
+}
+
+::selection {
+  color: #000000;
+  background: #a8dadc;
+}
+
+.dashed-left-border {
+  border-left: 1px dashed #c69d4b;
+}
+
+.dashed-right-border {
+  border-right: 1px dashed #c69d4b;
+}
